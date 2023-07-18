@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"webpack-dev-server --mode development",
+    "start": "webpack-dev-server --mode development",
     "build": "webpack --mode development"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@soda/friendly-errors-webpack-plugin": "^1.8.1",
     "@vue/compiler-sfc": "^3.3.4",
     "autoprefixer": "^10.4.14",
     "css-loader": "^6.8.1",
